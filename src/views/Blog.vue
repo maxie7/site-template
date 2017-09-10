@@ -1,8 +1,9 @@
 <template>
     <div class="blog">
-        <div class="blog__post" v-for="post in posts">
+        <div class="blog__post" v-for="(post, index) in posts">
           <img :src="post.image" alt="">
           <h3>{{ post.title }}</h3>
+          <router-link :to="{ name: 'post', params: { id: index } }">Read more...</router-link>
         </div>
     </div>
 </template>

@@ -56,11 +56,11 @@ nav a {
 }
 
 nav a.router-link-active {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(104, 98, 98);
 }
 
 .grey {
-    color: rgba(187, 187, 187, 1);
+    color: rgba(104, 98, 98, 1);
 }
 
 
