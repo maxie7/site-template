@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>vue-r</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+
+        <header>
+            <div class="header-wrapper">
+                <img src="http://acmelogos.com/images/logo-8.svg" alt="" class="logo">
+
+                <nav>
+                    <router-link to="/brands">+ Brands</router-link>
+                    <router-link to="/projects">+ Projects</router-link>
+                    <router-link to="/contacts">+ Contacts</router-link>
+                </nav>
+            </div>
+        </header>
+
+        <router-view></router-view>
+
+    </div>
+    <script src="/dist/build.js"></script>
+</body>
+
+</html>
